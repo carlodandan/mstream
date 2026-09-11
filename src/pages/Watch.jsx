@@ -196,7 +196,6 @@ const Watch = () => {
                 allowFullScreen
                 title="Video Player"
                 key={`${currentServer}-${currentSeason}-${currentEpisode}`}
-                sandbox="allow-scripts allow-same-origin allow-presentation"
               />
             </div>
 
